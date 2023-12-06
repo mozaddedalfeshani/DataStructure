@@ -11,7 +11,7 @@ int main()
 {
     Node *root = new Node(10);
     root->next = new Node(20);
-    root->next = new Node(30);
+    root->next->next = new Node(30);
 
     // display all the value
 
